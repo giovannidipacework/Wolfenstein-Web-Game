@@ -23,9 +23,8 @@ Some original levels have been faithfully recreated and are already available to
 
 - HTML, CSS, JavaScript (AJAX)  
 - PHP for backend logic and server-side requests  
-- MySQL (or compatible SQL database) for storing user data and maps  
-- Canvas API (or WebGL if applicable) for rendering  
-- Apache/Nginx (assumed web server)  
+- MySQL (or compatible SQL database) for storing user data and maps
+- Apache (web server)  
 
 ---
 
