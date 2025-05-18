@@ -48,11 +48,19 @@ This project simulates an engaging retro gaming experience combined with modern 
 
 ## 📂 Project Contents
 
-- `css/` — stylesheets, fonts, and images used for UI  
-- `img/` — game graphical assets, including animations, HUD, sprites, and textures  
-- `js/ajax/` — JavaScript scripts handling asynchronous requests  
-- `php/ajax/` — PHP scripts managing backend AJAX requests  
-- `sounds/` — audio assets for sound effects and music  
+- `css/` — stylesheets, fonts, and images used for UI
+- `img/` — game graphical assets, including animations, HUD, sprites, and textures
+- `js/` — JavaScript files containing game logic
+- `js/ajax/` — JavaScript scripts handling asynchronous requests
+- `php/` — Backend PHP scripts
+- `php/ajax/` — PHP scripts managing backend AJAX requests
+- `sounds/` — audio assets for sound effects and music
+- `dbConfig.php` — Database configuration
+- `game.php` — Core gameplay page
+- `index.php` — Main entry point of the game
+- `manuale.html` — User manual (in Italian)
+- `mapCreator.php` — Level editor interface page
+- `wolfenstein_3d.sql` — Database schema and initial data
 
 ---
 
