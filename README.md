@@ -1,21 +1,39 @@
 # Wolfenstein Web Game
 
-**Wolfenstein Web Game** is a web-based reinterpretation of the iconic 1992 MS-DOS game *Wolfenstein 3D*.  
-This version allows users to create, share, and play custom levels freely and in any order.  
-Some original levels have been faithfully recreated and are already available to play.
+A web-based remake of the classic 1992 MS-DOS game *Wolfenstein 3D*, focused on delivering:
+
+🎮 First-person shooter gameplay in a 2.5D environment  
+🛠️ User-generated level creation and editing  
+🔑 Interactive game mechanics with keys, switches, enemies, and pickups  
+🌐 Seamless online experience through AJAX-powered client-server communication  
+
+This project simulates an engaging retro gaming experience combined with modern web technologies, including PHP backend and SQL database integration for persistent user data and level management.
 
 ---
 
 ## 📌 Features
 
-- First-person navigation and shooting in 2.5D style  
-- User authentication and access to map creation tools  
-- Interactive game world with enemies, switches, pickups, and props  
-- Full level editor with drag-and-drop components  
-- Victory condition system (keys and switches)  
-- Flexible level loading and selection system  
-- Dynamic data exchange using AJAX for seamless gameplay experience  
-- Persistent data storage and retrieval with SQL and PHP backend  
+🎮 Gameplay & Controls  
+- First-person movement and shooting in a 2.5D environment  
+- Controls: WASD for movement, arrow keys for turning and shooting, `E` for interactions  
+
+🛠️ Level Creation & Editing  
+- User registration to create and modify custom maps  
+- Drag-and-drop map editor with walls, enemies, pickups, and interactive objects  
+- Validation rules to ensure playable levels (player start, keys, switches)  
+
+🔑 Game Mechanics  
+- Collect keys to activate switches and complete levels  
+- Enemies that track and shoot the player  
+- Pickups for health, ammo, weapons, and score  
+
+🌐 Client-Server Interaction  
+- AJAX-powered dynamic data loading and saving  
+- Real-time map and user data synchronization  
+
+💾 Data Management  
+- PHP backend managing user authentication
+- SQL database storing user profiles, maps, and scores  
 
 ---
 
@@ -23,7 +41,7 @@ Some original levels have been faithfully recreated and are already available to
 
 - HTML, CSS, JavaScript (AJAX)  
 - PHP for backend logic and server-side requests  
-- MySQL (or compatible SQL database) for storing user data and maps
+- MySQL for storing user data and maps
 - Apache (web server)  
 
 ---
