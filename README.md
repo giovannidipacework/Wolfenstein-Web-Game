@@ -14,26 +14,26 @@ This project simulates an engaging retro gaming experience combined with modern 
 ## 📌 Features
 
 - **Gameplay & Controls**
- - First-person movement and shooting in a 2.5D environment  
- - Controls: WASD for movement, arrow keys for turning and shooting, `E` for interactions  
+  - First-person movement and shooting in a 2.5D environment  
+  - Controls: WASD for movement, arrow keys for turning and shooting, `E` for interactions  
 
 - **Level Creation & Editing**
- - User registration to create and modify custom maps  
- - Drag-and-drop map editor with walls, enemies, pickups, and interactive objects  
- - Validation rules to ensure playable levels (player start, keys, switches)  
+  - User registration to create and modify custom maps  
+  - Drag-and-drop map editor with walls, enemies, pickups, and interactive objects  
+  - Validation rules to ensure playable levels (player start, keys, switches)  
 
 - **Game Mechanics**
- - Collect keys to activate switches and complete levels  
- - Enemies that track and shoot the player  
- - Pickups for health, ammo, weapons, and score  
+  - Collect keys to activate switches and complete levels  
+  - Enemies that track and shoot the player  
+  - Pickups for health, ammo, weapons, and score  
 
 - **Client-Server Interaction**
- - AJAX-powered dynamic data loading and saving  
- - Real-time map and user data synchronization  
+  - AJAX-powered dynamic data loading and saving  
+  - Real-time map and user data synchronization  
 
 - **Data Management**
- - PHP backend managing user authentication
- - SQL database storing user profiles, maps, and scores  
+  - PHP backend managing user authentication
+  - SQL database storing user profiles, maps, and scores  
 
 ---
 
