@@ -1,12 +1,12 @@
-# Wolfenstein 3D Web
+# Wolfenstein Web Game
 
-## Description
-
-**Wolfenstein 3D Web** is a web-based reinterpretation of the iconic 1992 MS-DOS game *Wolfenstein 3D*.  
+**Wolfenstein Web Game** is a web-based reinterpretation of the iconic 1992 MS-DOS game *Wolfenstein 3D*.  
 This version allows users to create, share, and play custom levels freely and in any order.  
 Some original levels have been faithfully recreated and are already available to play.
 
-## Features
+---
+
+## 📌 Features
 
 - First-person navigation and shooting in 2.5D style  
 - User authentication and access to map creation tools  
@@ -17,7 +17,9 @@ Some original levels have been faithfully recreated and are already available to
 - Dynamic data exchange using AJAX for seamless gameplay experience  
 - Persistent data storage and retrieval with SQL and PHP backend  
 
-## Technologies
+---
+
+## 📊 Technologies
 
 - HTML, CSS, JavaScript (AJAX)  
 - PHP for backend logic and server-side requests  
@@ -25,23 +27,9 @@ Some original levels have been faithfully recreated and are already available to
 - Canvas API (or WebGL if applicable) for rendering  
 - Apache/Nginx (assumed web server)  
 
-## Project Contents
+---
 
-├───css
-│ ├───font
-│ └───img
-├───img
-│ ├───animation
-│ │ ├───guard
-│ │ └───gun
-│ ├───hud
-│ ├───sprites
-│ └───texture
-├───js
-│ └───ajax
-├───php
-│ └───ajax
-└───sounds
+## 📂 Project Contents
 
 - `css/` — stylesheets, fonts, and images used for UI  
 - `img/` — game graphical assets, including animations, HUD, sprites, and textures  
@@ -49,15 +37,19 @@ Some original levels have been faithfully recreated and are already available to
 - `php/ajax/` — PHP scripts managing backend AJAX requests  
 - `sounds/` — audio assets for sound effects and music  
 
+---
+
 ## 🏫 Academic Context
 
 **University of Pisa**  
 **Course**: Web devolopment
 **Year**: 2020
 **Authors**: Giovanni Dipace
-## License
+---
 
-This project is for **educational and demonstrative purposes only**.  
+## 📄 License
+
+This is an academic project. Use for educational and portfolio purposes is permitted.
 *Wolfenstein 3D* is a trademark of **id Software**; all rights belong to their respective owners.  
 No commercial use is intended.
 
