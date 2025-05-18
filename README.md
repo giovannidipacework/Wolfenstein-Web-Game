@@ -59,9 +59,10 @@ This project simulates an engaging retro gaming experience combined with modern 
 ## 🏫 Academic Context
 
 **University of Pisa**  
-**Course**: Web devolopment
-**Year**: 2020
+**Course**: Web devolopment  
+**Year**: 2020  
 **Authors**: Giovanni Dipace
+
 ---
 
 ## 📄 License
