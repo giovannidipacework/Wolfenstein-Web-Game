@@ -76,6 +76,7 @@ This project simulates an engaging retro gaming experience combined with modern 
 ## 📄 License
 
 This is an academic project. Use for educational and portfolio purposes is permitted.
+
 *Wolfenstein 3D* is a trademark of **id Software**; all rights belong to their respective owners.  
 No commercial use is intended.
 
