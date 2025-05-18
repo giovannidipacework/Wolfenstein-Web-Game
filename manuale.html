@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="utf-8"> 
+    	<meta name = "author" content = "PWEB">
+    	<meta name = "keywords" content = "game">
+   	 	<link rel="shortcut icon" type="image/x-icon" href="./css/img/favicon.ico" />
+		<title>Manuale</title>
+	</head>
+	<body>
+		<h1>Wolfestein 3D</h1>
+		<p> 
+			Questo servizio web vuole ricreare online il primo videogame "3D": <a href="https://it.wikipedia.org/wiki/Wolfenstein_3D">Wolfenstein 3D</a>, data di uscita 1992 per MS-DOS.
+			A differenza del gioco originale, in questo caso i livelli del gioco sono creati da utenti iscritti al sito e possono essere giocati in qualunque ordine, alcuni livelli che ricreano i corrispondenti originali sono già stati inclusi.
+		</p>
+
+		<h2>I comandi base</h2>
+		<ul>
+			<li>W: spostarsi a avanti</li>
+			<li>A: spostarsi a sinistra</li>
+			<li>S: spostarsi a indietro</li>
+			<li>D: spostarsi a destra</li>
+			<li>E: interagisci</li>
+			<li>Freccia Su: sparo</li>
+			<li>Frecia Sinistra: girarsi a sinistra</li>
+			<li>Frecia destra: girarsi a destra</li>
+		</ul>
+
+		<p>Il livello viene considerato completato se:</p>
+		<ul>
+			<li>Il giocatore trova l'interruttore e la corrispettiva chiave</li>
+			<li>Il giocatore perde tutte le vite a disposizione</li>
+			<li>SiScaglie un altro livello trami il pulsante "Level Select"</li>
+		</ul>
+
+		<h2>Creazione Mappe</h2>
+		<p>
+			Per la accedere alla creazione delle mappe è necessario spostarsi tramite il relativo Link nella barra di navigazione, oppure cliccare sul pulsante "Modify" di una mappa già creata.
+		</p>
+		<p>
+			Affichè una mappa possa essere caricata è necessario che soddisfi i seguenti requisiti:
+		</p>
+		<ul>
+			<li>Sia presente il "Player"</li>
+			<li>Sia presente un "Wall" 12 o 13, cioè i due muri con gli interruttori, essi rappresenteranno la fine del livello e permetteranno la "vittoria" al giocatore</li>
+			<li>Sia presente la rispettiva "Chiave" per finire il livello, che si può trovare nella sezione "Pickup" nella barra di navigazione della pagina Creazione Mappe, cioè chiave d'argento per l'interruttore in basso, chiave d'oro per l'interruttore in alto</li>
+		</ul>
+		<p>Se durante la creazione non verrà dato nessun titolo alla mappa verrà caricata con il titolo "No title"</p>
+		<p>Una mappa può inoltre contenere:</p>
+		<ul>
+			<li>Nemici che spareranno a vista e seguiranno il giocatore</li>
+			<li>Muri con diverse tipi di texture</li>
+			<li>Muri interagibili premendo E, possono aver bisogno di una determinata chiave</li>
+			<li>Degli oggetti raccoglibili, indicati come "Pickup", una volta che il player gli raccoglie possono dare:</li>
+			<ul>
+				<li>Punteggio</li>
+				<li>Vite aggiuntive</li>
+				<li>Vita al giocatore</li>
+				<li>Munizioni</li>
+				<li>Armi</li>
+				<li>Chiavi per finire il livello o aprite porte nascoste</li>
+			</ul>
+			<li>Degli oggeti non interagibili, indicati come "Prop", questi oggeti sono come oggetti si scena e hanno solo scopo "abbellire"</li>
+		</ul>
+	</body>
+</html>

@@ -1,0 +1,80 @@
+html, body {
+  height: 100%;
+  min-height: 100%; /* for firefox */
+}
+
+body{
+	background-color: black;
+	margin: 0px;
+}
+
+.IMG{
+	height: 64px;
+	width: 64px;
+	object-fit: cover;
+	margin:10px; 
+}
+
+#minimap{
+	margin: auto;
+	border-style: outset;
+	background-image: url('../img/grid.jpg') ;
+	border-color: RGB(0,120,120);
+	border-width: 10px;
+	display: block;
+}
+
+
+.navbar{
+	background-color: RGBA(255,255,255,0.2);
+	width: 100%;
+	font-size: 25px;
+	display: flex;
+	color: white;
+
+	justify-content: space-between;
+}
+
+.navbar>div{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 50px;
+	margin-right: 50px;
+	float: left;
+}
+
+.navbar>div:hover{
+	cursor: pointer;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: RGBA(150,150,150,0.75);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content>div{
+	display: inline-block;
+	margin:10px;
+	color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: inline-block;
+}
+
+.dropbtn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}

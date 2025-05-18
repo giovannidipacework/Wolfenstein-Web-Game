@@ -1,0 +1,175 @@
+body{
+	height: 100%;
+	background-color: black;
+	margin: 0px;
+}
+
+input{
+	width: 150px;
+	margin: 10px;
+	margin-top: 0;
+}
+
+#game{
+  margin: auto;
+  border-style: outset;
+  border-color: RGB(0,120,120);
+  border-width: 10px;
+}
+
+#playground{
+  position:relative;
+  overflow:hidden;
+  background: linear-gradient(to bottom,  #3c3c3c 0%,#3c3c3c 50%,#737373 50%,#737373 100%)
+}
+
+#WEAPON{
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+	bottom: 0%;
+}
+
+.COLUMN{
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.SPRITES{
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+
+
+#hud-conteiner{
+  background-color: RGB(0,0,167);
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.hud{
+  height: calc(700px/4.55);
+  display: inline-block;
+  float: left;
+  background-color: RGB(0,0,167);
+  border-style: ridge;
+  border-width: 5px;
+  border-color: RGB(0,0,167);
+  margin: -5px;
+}
+
+#level{
+  width: calc(100%/37 * 4);
+}
+
+#score{
+  width: calc(100%/37 * 7);
+}
+
+#lives{
+  width: calc(100%/37 * 4);
+}
+
+#player_face{
+  width: calc(100%/37 * 4);
+}
+
+#health{
+  width: calc(100%/37 * 5);
+}
+
+#ammo{
+  width: calc(100%/37 * 4.5);
+}
+
+#key{
+  width: calc(100%/37 * 1);
+}
+#key>div{
+  height: 50%;
+}
+
+#weapon_slot{
+  width: calc(100%/37 * 7.5);
+}
+
+
+
+
+
+#menu{
+	background-color:white; 
+	position:absolute; 
+	z-index: 10; 
+	margin: auto;
+	background-color: RGB(136,0,0);
+
+	overflow: scroll;
+	overflow-x: hidden;
+	display:initial;
+}
+
+.level-selector{
+	border-style: solid;
+	border-color: RGB(116,0,0);
+	border-width: 10px;
+	border-top-width: 10px;
+	border-bottom-width: 0px;
+	margin-left: 40px;
+	margin-right: 40px;
+	color: RGB(192,176,176);
+	background-color: RGB(96,0,0);
+	padding: 10px;
+}
+
+.level-selector>p{
+	margin: 0px;
+	font-size: 30px;
+}
+.level-selector>input{
+	margin-top: 40px;
+	float: right;
+	font-size: 30px;
+}
+
+input:hover{
+	background-color: gray;
+	color: white;
+}
+
+
+
+#navbar{
+	background-color: RGBA(255,255,255,0.2);
+	width: 100%;
+	font-size: 25px;
+	display: flex;
+	color: white;
+
+	justify-content: space-between;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+#navbar>div{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 150px;
+	margin-right: 150px;
+	float: left;
+}
+
+#navbar>div>span{
+	vertical-align: top;
+}

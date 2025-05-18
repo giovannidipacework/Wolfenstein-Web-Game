@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "ARCADECLASSIC";
+    src: url(./font/ARCADECLASSIC.ttf) format("truetype");
+}
+* { 
+    font-family: "ARCADECLASSIC";
+}
+
+input{
+    width: 300px;
+}
+
+
+
+
+
+
+
