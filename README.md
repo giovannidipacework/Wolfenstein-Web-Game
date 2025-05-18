@@ -2,10 +2,10 @@
 
 A web-based remake of the classic 1992 MS-DOS game *Wolfenstein 3D*, focused on delivering:
 
-🎮 First-person shooter gameplay in a 2.5D environment  
-🛠️ User-generated level creation and editing  
-🔑 Interactive game mechanics with keys, switches, enemies, and pickups  
-🌐 Seamless online experience through AJAX-powered client-server communication  
+- 🎮 First-person shooter gameplay in a 2.5D environment  
+- 🛠️ User-generated level creation and editing  
+- 🔑 Interactive game mechanics with keys, switches, enemies, and pickups  
+- 🌐 Seamless online experience through AJAX-powered client-server communication  
 
 This project simulates an engaging retro gaming experience combined with modern web technologies, including PHP backend and SQL database integration for persistent user data and level management.
 
@@ -13,27 +13,27 @@ This project simulates an engaging retro gaming experience combined with modern 
 
 ## 📌 Features
 
-🎮 Gameplay & Controls  
-- First-person movement and shooting in a 2.5D environment  
-- Controls: WASD for movement, arrow keys for turning and shooting, `E` for interactions  
+- Gameplay & Controls  
+ - First-person movement and shooting in a 2.5D environment  
+ - Controls: WASD for movement, arrow keys for turning and shooting, `E` for interactions  
 
-🛠️ Level Creation & Editing  
-- User registration to create and modify custom maps  
-- Drag-and-drop map editor with walls, enemies, pickups, and interactive objects  
-- Validation rules to ensure playable levels (player start, keys, switches)  
+- Level Creation & Editing  
+ - User registration to create and modify custom maps  
+ - Drag-and-drop map editor with walls, enemies, pickups, and interactive objects  
+ - Validation rules to ensure playable levels (player start, keys, switches)  
 
-🔑 Game Mechanics  
-- Collect keys to activate switches and complete levels  
-- Enemies that track and shoot the player  
-- Pickups for health, ammo, weapons, and score  
+- Game Mechanics  
+ - Collect keys to activate switches and complete levels  
+ - Enemies that track and shoot the player  
+ - Pickups for health, ammo, weapons, and score  
 
-🌐 Client-Server Interaction  
-- AJAX-powered dynamic data loading and saving  
-- Real-time map and user data synchronization  
+- Client-Server Interaction  
+ - AJAX-powered dynamic data loading and saving  
+ - Real-time map and user data synchronization  
 
-💾 Data Management  
-- PHP backend managing user authentication
-- SQL database storing user profiles, maps, and scores  
+- Data Management  
+ - PHP backend managing user authentication
+ - SQL database storing user profiles, maps, and scores  
 
 ---
 
